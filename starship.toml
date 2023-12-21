@@ -1,8 +1,9 @@
 "$schema" = "https://starship.rs/config-schema.json"
 
 format = """
-[](fg:red)\
-[ 󰣇 ](bg:red fg:#090c0c)\
+[](fg:lavender)\
+[󰣇 ](bg:lavender fg:#090c0c)\
+[](fg:lavender bg:red)\
 $directory\
 $username\
 $hostname\
@@ -319,9 +320,9 @@ style = 'bg:mauve fg:#000000'
 ### STATUS INDICATORS
 
 [character]
-success_symbol = '[󱗆](bold cyan)'
-error_symbol = '[󱗆](bold red)'
-vimcmd_symbol = '[󱗆](bold cyan)'
+success_symbol = '[❯](bold cyan)'
+error_symbol = '[❯](bold red)'
+vimcmd_symbol = '[❯](bold cyan)'
 
 [palettes.catppuccin_macchiato]
 rosewater = "#f4dbd6"
